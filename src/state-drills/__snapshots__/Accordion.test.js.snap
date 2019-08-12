@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordions Component only opens the last section when multiple sections have been clicked 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+  <div
+    className="content"
+  >
+    Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+  </div>
+</ul>
+`;
+
+exports[`Accordions Component opens any clicked tab 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+  <div
+    className="content"
+  >
+    Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+  </div>
+</ul>
+`;
+
+exports[`Accordions Component renders no sections as active by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordions Component renders the first tab by default 1`] = `
+<ul>
+  0
+</ul>
+`;
